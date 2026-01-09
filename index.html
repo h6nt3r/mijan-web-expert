@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Web Specialist | Professional Works</title>
+    <meta name="description"
+        content="Professional works of a Web & AI Specialist. Expert in Web Design, AI Agents, AI Automation, and Web Security.">
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Lottie Player -->
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.11/dist/dotlottie-wc.js" type="module"></script>
+    <!-- Typed.js for text animation -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+
+    <!-- Floating Social Share (Right) -->
+    <div class="social-share-bar">
+        <a href="#" class="share-btn facebook" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="share-btn instagram" title="Share on Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="share-btn x-twitter" title="Share on X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" class="share-btn linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="share-btn tiktok" title="Share on TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="#" class="share-btn whatsapp" title="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <button class="share-btn copy-link" id="copyLinkBtn" title="Copy Link"><i class="fas fa-link"></i></button>
+    </div>
+
+    <!-- Header / Nav -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">MIJAN<span>Web</span><span>Expert</span></a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#portfolio">Our Works</a></li>
+                    <li><a href="#reviews">Client Reviews</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact" class="nav-cta">Get Started</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-content">
+                        <span class="hero-subtitle">Next-Gen Web & AI Solutions</span>
+                        <h1 class="hero-title">
+                            <span class="hero-static-text">What We Make Solution For Your Business</span><br>
+                            <span class="accent-text" id="typed-text"></span>
+                        </h1>
+                        <p class="hero-description red">Empowering businesses with custom AI agents, automated
+                            workflows,
+                            and high-performance, secure web designs engineered for conversion.</p>
+                        <div class="hero-ctas">
+                            <a href="#contact" class="btn btn-primary">Start a Project</a>
+                            <a href="#portfolio" class="btn btn-secondary">View Our Work</a>
+                        </div>
+                    </div>
+                    <div class="hero-lottie">
+                        <dotlottie-wc src="https://lottie.host/5cdf80f5-4462-4a5d-b53c-28fca0b8fd9b/siwhbeeRGm.lottie"
+                            style="width: 100%; max-width: 850px; height: auto;" autoplay loop></dotlottie-wc>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Specialized Services</h2>
+                    <p class="section-subtitle">Cutting-edge solutions tailored to your business needs.</p>
+                </div>
+                <div class="services-grid has-default-active">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>Web Design</h3>
+                        <p>High-conversion websites built with clean code or CMS, optimized for speed and user
+                            experience.</p>
+                        <ul class="service-details" data-title="Web Design">
+                            <li style="--i: 1">Landing Page Design</li>
+                            <li style="--i: 2">E-commerce Solutions</li>
+                            <li style="--i: 3">UI/UX Prototyping</li>
+                            <li style="--i: 4">Responsive Development</li>
+                            <li style="--i: 5">SEO Optimization</li>
+                            <li style="--i: 6">Performance Tuning</li>
+                            <li style="--i: 7">CMS Integration</li>
+                            <li style="--i: 8">Custom Themes</li>
+                            <li style="--i: 9">Anything As You Need</li>
+                        </ul>
+                    </div>
+                    <div class="service-card active-default">
+                        <div class="service-icon"><i class="fab fa-wordpress"></i></div>
+                        <h3>Theme Customization</h3>
+                        <p>Expert solutions for custom WordPress themes, plugins, and complete website creation tailored
+                            to your brand.</p>
+                        <ul class="service-details" data-title="Theme Customization">
+                            <li style="--i: 1">Full website creation WordPress</li>
+                            <li style="--i: 2">Advance theme customization</li>
+                            <li style="--i: 3">LMS(Learning Management System) website create</li>
+                            <li style="--i: 4">Business website creation</li>
+                            <li style="--i: 5">Landing page design</li>
+                            <li style="--i: 6">Portfolio website create</li>
+                            <li style="--i: 7">eCommerce website create</li>
+                            <li style="--i: 8">Agency website create</li>
+                            <li style="--i: 9">Sales landing page create</li>
+                            <li style="--i: 10">News website create</li>
+                            <li style="--i: 11">WordPress migration</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-cogs"></i></div>
+                        <h3>AI Automation</h3>
+                        <p>Streamline your operations by automating repetitive tasks using advanced AI-driven workflows.
+                        </p>
+                        <ul class="service-details" data-title="AI Automation">
+                            <li style="--i: 1">Email Flow Automation</li>
+                            <li style="--i: 2">Social Media Posting</li>
+                            <li style="--i: 3">Data Scraping & Entry</li>
+                            <li style="--i: 4">Automated Reporting</li>
+                            <li style="--i: 5">API Integrations</li>
+                            <li style="--i: 6">Workflow Orchestration</li>
+                            <li style="--i: 7">Document Processing</li>
+                            <li style="--i: 8">Slack/Discord Bots</li>
+                            <li style="--i: 9">Anything As You Need</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>Website Security</h3>
+                        <p>Comprehensive security audits and hardening to protect your digital assets from
+                            vulnerabilities.</p>
+                        <ul class="service-details" data-title="Website Security">
+                            <li style="--i: 1">Vulnerability Scanning</li>
+                            <li style="--i: 2">Malware Removal</li>
+                            <li style="--i: 3">Firewall Configuration</li>
+                            <li style="--i: 4">SSL/TLS Optimization</li>
+                            <li style="--i: 5">Database Encryption</li>
+                            <li style="--i: 6">Security Audits</li>
+                            <li style="--i: 7">DDoS Protection</li>
+                            <li style="--i: 8">Secure Code Review</li>
+                            <li style="--i: 9">Anything As You Need</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <div class="image-stack">
+                            <div class="main-img" style="background-image: none;">
+                                <dotlottie-wc
+                                    src="https://lottie.host/580d888f-523f-41aa-a38b-72e6c8545c3a/X2QMT5vdlZ.lottie"
+                                    style="width: 450px;height: 450px" autoplay loop></dotlottie-wc>
+                            </div>
+                            <div class="accent-box"></div>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <span class="hero-subtitle">About Us</span>
+                        <h2 class="section-title">Driving Innovation in <br><span class="accent-text">Web & AI
+                                Technology</span></h2>
+                        <p>With 7 years of experience in the digital landscape, I specialize in bridging the gap between
+                            sophisticated AI capabilities and user-centric web design. My mission is to empower
+                            businesses by automating the mundane and elevating their digital presence.</p>
+                        <p>At MIJAN Web Expert, we don't just build websites; we create intelligent ecosystems that grow
+                            with your business, ensuring security, performance, and conversion at every step.</p>
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-laptop-code"></i>
+                                <span>Website Design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-wand-magic-sparkles"></i>
+                                <span>Theme Customization</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-microchip"></i>
+                                <span>AI Integration Expert</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-user-shield"></i>
+                                <span>Security Focused</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us -->
+        <section id="why-us" class="why-us-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Why Us</h2>
+                    <p class="section-subtitle">Delivering excellence through expertise and dedication.</p>
+                </div>
+                <div class="why-us-grid">
+                    <div class="why-box">
+                        <i class="fas fa-check-circle"></i>
+                        <span class="why-number" data-target="50">0</span>+
+                        <span class="why-title">Projects Completed</span>
+                    </div>
+                    <div class="why-box">
+                        <i class="fas fa-smile"></i>
+                        <span class="why-number" data-target="98">0</span>%
+                        <span class="why-title">Client Satisfaction</span>
+                    </div>
+                    <div class="why-box">
+                        <i class="fas fa-calendar-check"></i>
+                        <span class="why-number" data-target="7">0</span>+
+                        <span class="why-title">Years Experience</span>
+                    </div>
+                    <div class="why-box">
+                        <i class="fas fa-headset"></i>
+                        <span class="why-number" data-target="24">0</span>24/7
+                        <span class="why-title">Support Available</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Works Section -->
+        <section id="portfolio" class="portfolio-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Works</h2>
+                    <p class="section-subtitle">Real-world results delivered through AI and modern design.</p>
+                </div>
+
+                <!-- Filter Buttons -->
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web-design">Web Design</button>
+                    <button class="filter-btn" data-filter="ai-automation">AI Automation</button>
+                    <button class="filter-btn" data-filter="web-security">Web Security</button>
+                </div>
+
+                <!-- Portfolio Grid -->
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid">
+                    <!-- Web Design Projects -->
+                    <div class="portfolio-card" data-category="web-design">
+                        <div class="portfolio-image">
+                            <img src="images/projects/web-design/1.jpg" alt="Web Design Project 1">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/web-design/1.jpg">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="web-design">
+                        <div class="portfolio-image">
+                            <!-- Using img tag instead of background image for better aspect ratio control if needed, 
+                                 but previous design used background-image. 
+                                 Let's stick to the previous pattern if possible, but the user asked to "add images".
+                                 The previous code used inline styles for background images (gradients) and data-image for lightbox.
+                                 The user said "image gulo images dir er projects dir te category wise rakha ache".
+                                 I should probably use <img> tags or background-image with the actual file.
+                                 Let's use <img> tags inside .portfolio-image for better object-fit, 
+                                 OR set background-image to the file url.
+                                 Standard portfolio grids often use <img>. 
+                                 However, the existing CSS might rely on .portfolio-image being a div with background.
+                                 Let's look at the existing code:
+                                 <div class="portfolio-image" style="background-image: ..."></div>
+                                 
+                                 I'll use <img src="..."> inside .portfolio-image if possible, or just set background-image.
+                                 Let's try <img> tag inside, it's more robust effectively replacing the empty div with gradient.
+                                 Wait, if I change the structure too much I might break CSS.
+                                 The prompt says "filter button a 4 ta kore image add koro".
+                                 I'll use <img> tag inside .portfolio-image so it shows up. 
+                                 I will remove the inline style background-gradient.
+                            -->
+                            <img src="images/projects/web-design/2.png" alt="Web Design Project 2"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/web-design/2.png">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="web-design">
+                        <div class="portfolio-image">
+                            <img src="images/projects/web-design/3.jpg" alt="Web Design Project 3"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/web-design/3.jpg">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="web-design">
+                        <div class="portfolio-image">
+                            <img src="images/projects/web-design/4.jpg" alt="Web Design Project 4"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/web-design/4.jpg">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- AI Automation Projects -->
+                    <div class="portfolio-card" data-category="ai-automation">
+                        <div class="portfolio-image">
+                            <img src="images/projects/ai-automation/1.png" alt="AI Automation Project 1"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/ai-automation/1.png">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="ai-automation">
+                        <div class="portfolio-image">
+                            <img src="images/projects/ai-automation/2.png" alt="AI Automation Project 2"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/ai-automation/2.png">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="ai-automation">
+                        <div class="portfolio-image">
+                            <img src="images/projects/ai-automation/3.png" alt="AI Automation Project 3"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/ai-automation/3.png">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="ai-automation">
+                        <div class="portfolio-image">
+                            <img src="images/projects/ai-automation/4.png" alt="AI Automation Project 4"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/ai-automation/4.png">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Web Security Projects -->
+                    <div class="portfolio-card" data-category="web-security">
+                        <div class="portfolio-image">
+                            <img src="images/projects/web-security/1.png" alt="Web Security Project 1"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/web-security/1.png">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="web-security">
+                        <div class="portfolio-image">
+                            <img src="images/projects/web-security/2.webp" alt="Web Security Project 2"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/web-security/2.webp">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="web-security">
+                        <div class="portfolio-image">
+                            <img src="images/projects/web-security/3.png" alt="Web Security Project 3"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/web-security/3.png">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-category="web-security">
+                        <div class="portfolio-image">
+                            <img src="images/projects/web-security/4.png" alt="Web Security Project 4"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="view-full-btn" data-image="images/projects/web-security/4.png">
+                                <i class="fas fa-expand"></i> VIEW FULL PROJECT
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-container">
+                    <button id="loadMoreBtn" class="btn btn-primary">Load More Projects</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox -->
+        <div id="portfolioLightbox" class="lightbox">
+            <button class="lightbox-close"><i class="fas fa-times"></i></button>
+            <div class="lightbox-content">
+                <img id="lightboxImage" src="" alt="Project Image">
+            </div>
+        </div>
+
+        <!-- Results / Impact -->
+        <section class="results-section section-padding">
+            <div class="container">
+                <div class="results-grid">
+                    <div class="result-item">
+                        <span class="result-value">85%</span>
+                        <span class="result-label">Operational Efficiency</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-value">2M+</span>
+                        <span class="result-label">Automated Tasks Yearly</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-value">100%</span>
+                        <span class="result-label">Security Compliance</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How I Work (Process) -->
+        <section id="process" class="process-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Proven Process</h2>
+                    <p class="section-subtitle">A strategic approach to every project I undertake.</p>
+                </div>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">01</div>
+                        <h3>Discovery</h3>
+                        <p>We deep dive into your business goals, challenges, and user needs.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">02</div>
+                        <h3>Strategy</h3>
+                        <p>Designing the architecture, AI workflows, and security frameworks.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">03</div>
+                        <h3>Development</h3>
+                        <p>Agile build process with regular check-ins and iterative feedback.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">04</div>
+                        <h3>Launch & Beyond</h3>
+                        <p>Deployment with rigorous testing and ongoing performance optimization.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Reviews -->
+        <section id="reviews" class="testimonials-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Client Reviews</h2>
+                </div>
+                <div class="testimonial-slider-container">
+                    <div class="testimonial-track">
+                        <div class="testimonial-card">
+                            <img src="images/reviews/1.png" alt="Client Review" class="review-screenshot">
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="images/reviews/2.png" alt="Client Review" class="review-screenshot">
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="images/reviews/3.png" alt="Client Review" class="review-screenshot">
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="images/reviews/1.png" alt="Client Review" class="review-screenshot">
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="slider-dots"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section section-padding">
+            <div class="container thin">
+                <div class="section-header">
+                    <h2 class="section-title">Common Questions</h2>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-item active">
+                        <div class="faq-question">How does AI automation help my business? <i
+                                class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer">AI automation reduces operational costs by handling repetitive tasks,
+                            allowing your team to focus on high-value activities.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Do I need to be tech-savvy to use AI agents? <i
+                                class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer">Not at all. I build user-friendly interfaces and provide full training
+                            and support for all AI implementations.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Is my business data safe with AI? <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">Security is my top priority. I use enterprise-grade encryption and
+                            ensure your data is never used for training third-party models without consent.</div>
+                    </div>
+
+                    <!-- User Provided: Web Security -->
+                    <div class="faq-item">
+                        <div class="faq-question">Can you remove a website from the Google blacklist disable due to
+                            malware? <i class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer">Yes, I can do it. it will take 3 to 7 days. Google blacklist removal and
+                            Clean Malware website.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">What are the requirements for malware cleanup? Cpanel? FTP/SFTP? <i
+                                class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer">I'm comfortable and can work fast with CPanel. If you don't have CPanel,
+                            I can work with FTP/SFTP, but it depends on Malware infection condition. In that case, Don’t
+                            forget to contact me about this before placing an order.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">My sites are suspended what to do? <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">No site suspension means you must have all the sites infected. I can fix
+                            this issue also.</div>
+                    </div>
+
+                    <!-- Generated: AI Automation -->
+                    <div class="faq-item">
+                        <div class="faq-question">Can you build an AI chatbot trained on my own data? <i
+                                class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer">Yes! I specialize in building custom AI chatbots (RAG) that learn from
+                            your specific business documents, websites, and data to provide accurate support to your
+                            clients.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">What business processes can be automated with AI? <i
+                                class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer">Almost any repetitive digital task can be automated. This includes lead
+                            generation, email outreach, social media scheduling, data entry, and customer support
+                            workflows.</div>
+                    </div>
+
+                    <!-- Generated: Web Security -->
+                    <div class="faq-item">
+                        <div class="faq-question">How do I know if my website has been hacked? <i
+                                class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer">Common signs include slow performance, strange redirects, pop-up ads,
+                            new admin accounts you didn't create, or warnings from browsers/search engines.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Let's Build Something <span class="accent-text">Great</span></h2>
+                        <p>Ready to take your digital presence to the next level? Contact me today for a free
+                            consultation.</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <span>onlineghor87@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 AI Specialist. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <a href="https://wa.me/8801763050314" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button id="scrollToTop" class="scroll-to-top" title="Scroll to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
